@@ -15,31 +15,28 @@ window.studyNotes = {
           <li><strong>Supercomputers:</strong> The fastest computers in the world, optimized for execution of complex scientific, floating-point calculations rather than database transactions. Speed is measured in FLOPS (Floating Point Operations Per Second).</li>
         </ul>
         
-        <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="150" viewBox="0 0 450 150" style="max-width: 450px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+        <div style="text-align: center; margin: 1.5rem 0;">
+          <svg width="100%" height="200" viewBox="0 0 500 200" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
             <!-- Analog -->
-            <rect x="20" y="20" width="110" height="70" rx="6" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
-            <text x="75" y="45" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="11">Analog</text>
-            <text x="75" y="60" text-anchor="middle" fill="var(--text-muted)" font-size="9">Continuous Data</text>
-            <text x="75" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">e.g., Voltage, Flow</text>
-            <!-- Wave effect -->
-            <path d="M 30,120 Q 55,100 80,120 T 130,120" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <rect x="20" y="25" width="130" height="90" rx="8" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="85" y="55" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="13">Analog</text>
+            <text x="85" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="10">Continuous Data</text>
+            <text x="85" y="95" text-anchor="middle" fill="var(--text-muted)" font-size="9">e.g., Voltage, Flow</text>
+            <path d="M 30,160 Q 60,130 90,160 T 150,160" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
 
             <!-- Hybrid (Middle Connection) -->
-            <rect x="170" y="20" width="110" height="70" rx="6" fill="none" stroke="#10b981" stroke-width="2"/>
-            <text x="225" y="45" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="11">Hybrid</text>
-            <text x="225" y="60" text-anchor="middle" fill="var(--text-muted)" font-size="9">Analog + Digital</text>
-            <text x="225" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">e.g., Petrol Pump</text>
-            <!-- Mix effect -->
-            <path d="M 180,120 Q 205,100 230,120 H 260 v -15" fill="none" stroke="#10b981" stroke-width="1.5"/>
+            <rect x="185" y="25" width="130" height="90" rx="8" fill="none" stroke="#10b981" stroke-width="2"/>
+            <text x="250" y="55" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="13">Hybrid</text>
+            <text x="250" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="10">Analog + Digital</text>
+            <text x="250" y="95" text-anchor="middle" fill="var(--text-muted)" font-size="9">e.g., Petrol Pump</text>
+            <path d="M 195,160 Q 225,130 255,160 H 295 v -20" fill="none" stroke="#10b981" stroke-width="2"/>
 
             <!-- Digital -->
-            <rect x="320" y="20" width="110" height="70" rx="6" fill="none" stroke="var(--warning-color)" stroke-width="2"/>
-            <text x="375" y="45" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="11">Digital</text>
-            <text x="375" y="60" text-anchor="middle" fill="var(--text-muted)" font-size="9">Discrete Bits (0/1)</text>
-            <text x="375" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">e.g., PC, Server</text>
-            <!-- Square wave -->
-            <path d="M 330,120 H 350 V 105 H 370 V 120 H 390 V 105 H 410" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
+            <rect x="350" y="25" width="130" height="90" rx="8" fill="none" stroke="var(--warning-color)" stroke-width="2"/>
+            <text x="415" y="55" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="13">Digital</text>
+            <text x="415" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="10">Discrete Bits (0/1)</text>
+            <text x="415" y="95" text-anchor="middle" fill="var(--text-muted)" font-size="9">e.g., PC, Server</text>
+            <path d="M 360,160 H 385 V 140 H 410 V 160 H 435 V 140 H 445" fill="none" stroke="var(--warning-color)" stroke-width="2"/>
           </svg>
         </div>
 
@@ -73,23 +70,23 @@ window.studyNotes = {
           </li>
         </ul>
 
-        <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="160" viewBox="0 0 340 160" style="max-width: 340px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+        <div style="text-align: center; margin: 1.5rem 0;">
+          <svg width="100%" height="220" viewBox="0 0 400 220" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
             <!-- Outer Margin Box -->
-            <rect x="15" y="10" width="310" height="140" fill="none" stroke="var(--danger-color)" stroke-dasharray="4,4" stroke-width="1.5"/>
-            <text x="25" y="23" fill="var(--danger-color)" font-size="8" font-weight="600">MARGIN</text>
+            <rect x="20" y="15" width="360" height="190" fill="none" stroke="var(--danger-color)" stroke-dasharray="6,6" stroke-width="2"/>
+            <text x="35" y="32" fill="var(--danger-color)" font-size="10" font-weight="700">MARGIN</text>
 
             <!-- Border Box -->
-            <rect x="45" y="25" width="250" height="110" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
-            <text x="55" y="38" fill="var(--accent-color)" font-size="8" font-weight="600">BORDER</text>
+            <rect x="60" y="40" width="280" height="140" fill="none" stroke="var(--accent-color)" stroke-width="2.5"/>
+            <text x="75" y="58" fill="var(--accent-color)" font-size="10" font-weight="700">BORDER</text>
 
             <!-- Padding Box -->
-            <rect x="75" y="40" width="190" height="80" fill="none" stroke="#10b981" stroke-dasharray="2,2" stroke-width="1.5"/>
-            <text x="85" y="53" fill="#10b981" font-size="8" font-weight="600">PADDING</text>
+            <rect x="100" y="65" width="200" height="90" fill="none" stroke="#10b981" stroke-dasharray="3,3" stroke-width="2"/>
+            <text x="115" y="83" fill="#10b981" font-size="10" font-weight="700">PADDING</text>
 
             <!-- Content Box -->
-            <rect x="105" y="55" width="130" height="50" fill="var(--btn-unvisited-light)" stroke="var(--border-color)" style="body.dark & { fill: var(--btn-unvisited-dark); }"/>
-            <text x="170" y="83" text-anchor="middle" fill="var(--text-main)" font-size="10" font-weight="600">CONTENT</text>
+            <rect x="140" y="90" width="120" height="40" fill="var(--btn-unvisited-light)" stroke="var(--border-color)" style="body.dark & { fill: var(--btn-unvisited-dark); }"/>
+            <text x="200" y="115" text-anchor="middle" fill="var(--text-main)" font-size="12" font-weight="700">CONTENT</text>
           </svg>
         </div>
 
@@ -153,6 +150,98 @@ window.studyNotes = {
           <li><strong>Accumulator (AC):</strong> Register that temporarily stores intermediate logical and arithmetic results from the ALU.</li>
           <li><strong>Virtual Memory:</strong> A memory management technique that uses a portion of the secondary hard drive (pagefile/swap space) to extend physical RAM. When RAM is full, the OS swaps idle pages to the disk. If swapping happens excessively, it causes **Thrashing** (CPU spends more time swapping than executing).</li>
         </ul>
+
+        <!-- DIAGRAM 1: Von Neumann Architecture -->
+        <h4 style="margin-top:1.5rem; font-size:0.9rem; font-weight:600; color:var(--text-main);">Visual A: Von Neumann Architecture</h4>
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="240" viewBox="0 0 500 240" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
+            <!-- Input Device -->
+            <rect x="20" y="90" width="80" height="50" rx="4" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="60" y="120" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text-main)">Input Devices</text>
+            
+            <!-- CPU Container -->
+            <rect x="140" y="20" width="220" height="190" rx="6" fill="none" stroke="var(--danger-color)" stroke-width="2" stroke-dasharray="4,4"/>
+            <text x="150" y="38" fill="var(--danger-color)" font-size="9" font-weight="700">CPU (Central Processing Unit)</text>
+
+            <!-- Control Unit -->
+            <rect x="160" y="55" width="180" height="40" rx="3" fill="none" stroke="var(--danger-color)" stroke-width="1.5"/>
+            <text x="250" y="79" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text-main)">Control Unit (CU)</text>
+
+            <!-- ALU -->
+            <rect x="160" y="110" width="180" height="40" rx="3" fill="none" stroke="var(--danger-color)" stroke-width="1.5"/>
+            <text x="250" y="134" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text-main)">Arithmetic Logic Unit (ALU)</text>
+
+            <!-- Registers -->
+            <rect x="160" y="160" width="180" height="35" rx="3" fill="none" stroke="var(--danger-color)" stroke-width="1.5"/>
+            <text x="250" y="181" text-anchor="middle" font-size="9" font-weight="600" fill="var(--text-main)">Registers (PC, MAR, IR, AC)</text>
+
+            <!-- Memory Unit -->
+            <rect x="400" y="20" width="80" height="190" rx="4" fill="none" stroke="#10b981" stroke-width="2"/>
+            <text x="440" y="110" text-anchor="middle" font-size="11" font-weight="600" fill="var(--text-main)">Memory</text>
+            <text x="440" y="130" text-anchor="middle" font-size="9" fill="var(--text-muted)">RAM / ROM</text>
+
+            <!-- Arrows -->
+            <!-- Input to CPU -->
+            <line x1="100" y1="115" x2="140" y2="115" stroke="var(--accent-color)" stroke-width="2"/>
+            <polygon points="140,115 132,110 132,120" fill="var(--accent-color)"/>
+
+            <!-- CPU to Memory (Bidirectional) -->
+            <line x1="360" y1="90" x2="400" y2="90" stroke="#10b981" stroke-width="2"/>
+            <polygon points="360,90 368,85 368,95" fill="#10b981"/>
+            <polygon points="400,90 392,85 392,95" fill="#10b981"/>
+
+            <!-- CPU to Output -->
+            <!-- We need Output Box -->
+            <!-- Since space is limited, Output connects below -->
+            <path d="M 300,210 v 20 H 60 v -90" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
+            <polygon points="60,140 55,148 65,148" fill="var(--warning-color)"/>
+            <text x="180" y="225" text-anchor="middle" fill="var(--text-muted)" font-size="8">Output Data Path</text>
+          </svg>
+        </div>
+
+        <!-- DIAGRAM 2: Virtual Memory / Paging Mapping -->
+        <h4 style="margin-top:1.5rem; font-size:0.9rem; font-weight:600; color:var(--text-main);">Visual B: Virtual Memory Paging System</h4>
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="240" viewBox="0 0 500 240" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
+            <!-- Virtual Memory (Hard Disk Swap) -->
+            <rect x="20" y="40" width="100" height="160" rx="4" fill="none" stroke="var(--danger-color)" stroke-width="2"/>
+            <text x="70" y="25" text-anchor="middle" font-size="9" font-weight="700" fill="var(--danger-color)">VIRTUAL ADDRESSES</text>
+            <text x="70" y="65" text-anchor="middle" fill="var(--text-main)" font-size="9">Page 0</text>
+            <text x="70" y="105" text-anchor="middle" fill="var(--text-main)" font-size="9">Page 1</text>
+            <text x="70" y="145" text-anchor="middle" fill="var(--text-main)" font-size="9">Page 2</text>
+            <text x="70" y="185" text-anchor="middle" fill="var(--text-main)" font-size="9">Page 3</text>
+            <line x1="20" y1="80" x2="120" y2="80" stroke="var(--border-color)"/>
+            <line x1="20" y1="120" x2="120" y2="120" stroke="var(--border-color)"/>
+            <line x1="20" y1="160" x2="120" y2="160" stroke="var(--border-color)"/>
+
+            <!-- Page Table -->
+            <rect x="180" y="50" width="120" height="140" rx="3" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
+            <text x="240" y="35" text-anchor="middle" font-size="9" font-weight="700" fill="var(--warning-color)">PAGE TABLE</text>
+            <text x="240" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">Page 0 &rarr; Frame 1</text>
+            <text x="240" y="105" text-anchor="middle" fill="var(--text-muted)" font-size="8">Page 1 &rarr; Disk Swap</text>
+            <text x="240" y="135" text-anchor="middle" fill="var(--text-muted)" font-size="8">Page 2 &rarr; Frame 0</text>
+            <text x="240" y="165" text-anchor="middle" fill="var(--text-muted)" font-size="8">Page 3 &rarr; Invalid</text>
+            <line x1="180" y1="90" x2="300" y2="90" stroke="var(--border-color)" stroke-width="0.5"/>
+            <line x1="180" y1="120" x2="300" y2="120" stroke="var(--border-color)" stroke-width="0.5"/>
+            <line x1="180" y1="150" x2="300" y2="150" stroke="var(--border-color)" stroke-width="0.5"/>
+
+            <!-- Physical RAM -->
+            <rect x="380" y="50" width="100" height="100" rx="4" fill="none" stroke="#10b981" stroke-width="2"/>
+            <text x="430" y="25" text-anchor="middle" font-size="9" font-weight="700" fill="#10b981">PHYSICAL RAM</text>
+            <text x="430" y="75" text-anchor="middle" fill="var(--text-main)" font-size="9">Frame 0 (Page 2)</text>
+            <text x="430" y="125" text-anchor="middle" fill="var(--text-main)" font-size="9">Frame 1 (Page 0)</text>
+            <line x1="380" y1="100" x2="480" y2="100" stroke="var(--border-color)"/>
+
+            <!-- Mapping arrows -->
+            <path d="M 120,65 L 180,75" stroke="var(--text-muted)" stroke-width="1.5"/>
+            <path d="M 300,75 L 380,125" stroke="#10b981" stroke-width="1.5"/>
+            <polygon points="380,125 372,121 375,129" fill="#10b981"/>
+
+            <path d="M 300,135 L 380,75" stroke="#10b981" stroke-width="1.5"/>
+            <polygon points="380,75 374,81 370,74" fill="#10b981"/>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           When an RBB teller opens their Core Banking System (Pumori/Finacle), Microsoft Excel, and multiple browser tabs at the same time, the system RAM might get filled. The Windows OS uses **Virtual Memory** on the local C: drive to keep the computer running without crashing, though the teller will notice the system slows down due to hard disk swap file delays.
@@ -163,38 +252,68 @@ window.studyNotes = {
         title: "Organization of Hard Disk",
         notes: `<p>Magnetic hard disks organize data logically and physically to optimize disk access speeds:</p>
         <ul>
-          <li><strong>Physical Platters:</strong> Magnetic platters spin on a central spindle. Read/write heads float on an arm above the surface.</li>
+          <li><strong>Physical Platters:</strong> Magnetic platters rotate on a central spindle. Read/write heads float on an arm above the surface.</li>
           <li><strong>Tracks:</strong> Concentric circular rings formatted on the platter surfaces.</li>
           <li><strong>Sectors:</strong> Smallest addressable physical block on a track. Traditional sectors store **512 bytes** of data. Modern Advanced Format (AF) drives store **4096 bytes (4 KB)** to reduce ECC overhead.</li>
           <li><strong>Cylinder:</strong> The set of all tracks of the same diameter across all platter surfaces. Cylinders allow reading multiple tracks without moving the physical read/write head arm, reducing seek time.</li>
           <li><strong>NTFS (New Technology File System):</strong> Standard file system for Windows OS, supporting file permissions (ACLs), encryption (EFS), disk quotas, compression, and file journaling (preventing corruptions).</li>
         </ul>
 
+        <!-- DIAGRAM 1: Hard Disk Platter organization -->
+        <h4 style="margin-top:1.5rem; font-size:0.9rem; font-weight:600; color:var(--text-main);">Visual A: Platter Physics (Tracks, Sectors & Cylinders)</h4>
         <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="220" viewBox="0 0 320 220" style="max-width: 320px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
-            <!-- Platter Circles -->
-            <circle cx="160" cy="110" r="90" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>
-            <circle cx="160" cy="110" r="70" fill="none" stroke="var(--text-muted)" stroke-width="1" stroke-dasharray="3,3"/>
-            <circle cx="160" cy="110" r="50" fill="none" stroke="var(--text-muted)" stroke-width="1"/>
-            <circle cx="160" cy="110" r="15" fill="none" stroke="var(--text-main)" stroke-width="2"/>
+          <svg width="100%" height="240" viewBox="0 0 500 240" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
+            <!-- Outer Platter Circles -->
+            <ellipse cx="200" cy="120" rx="140" ry="70" fill="none" stroke="var(--text-muted)" stroke-width="2"/>
+            <ellipse cx="200" cy="120" rx="110" ry="55" fill="none" stroke="var(--text-muted)" stroke-width="1.5" stroke-dasharray="4,4"/>
+            <ellipse cx="200" cy="120" rx="80" ry="40" fill="none" stroke="var(--text-muted)" stroke-width="1"/>
+            <ellipse cx="200" cy="120" rx="25" ry="12" fill="none" stroke="var(--text-main)" stroke-width="3"/>
 
-            <!-- Sector Wedge (pie lines) -->
-            <line x1="160" y1="110" x2="223" y2="47" stroke="var(--accent-color)" stroke-width="1.5"/>
-            <line x1="160" y1="110" x2="250" y2="110" stroke="var(--accent-color)" stroke-width="1.5"/>
-            <!-- Arc for sector -->
-            <path d="M 223,47 A 90 90 0 0 1 250,110" fill="var(--accent-bg-dark)" stroke="var(--accent-color)" stroke-width="1.5" style="body.light & { fill: var(--accent-bg-light); }"/>
+            <!-- Sector Wedge -->
+            <line x1="200" y1="120" x2="310" y2="78" stroke="var(--accent-color)" stroke-width="2"/>
+            <line x1="200" y1="120" x2="340" y2="120" stroke="var(--accent-color)" stroke-width="2"/>
+            <path d="M 310,78 A 140 70 0 0 1 340,120" fill="var(--accent-bg-dark)" stroke="var(--accent-color)" stroke-width="2"/>
 
-            <!-- Actuator Arm & Head -->
-            <line x1="280" y1="20" x2="210" y2="90" stroke="var(--danger-color)" stroke-width="3"/>
-            <circle cx="280" cy="20" r="6" fill="var(--danger-color)"/>
-            <!-- Head Point -->
-            <rect x="205" y="85" width="8" height="8" fill="var(--text-main)"/>
+            <!-- Actuator Arm -->
+            <line x1="420" y1="40" x2="280" y2="110" stroke="var(--danger-color)" stroke-width="4"/>
+            <circle cx="420" cy="40" r="10" fill="var(--danger-color)"/>
+            <!-- R/W Head pointer -->
+            <rect x="274" y="105" width="12" height="10" fill="var(--text-main)"/>
 
-            <!-- Labels -->
-            <text x="160" y="15" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text-main)">Hard Disk organization</text>
-            <text x="210" y="70" fill="var(--accent-color)" font-size="9" font-weight="600">Sector (Wedge)</text>
-            <text x="160" y="150" text-anchor="middle" fill="var(--text-muted)" font-size="9">Track (Concentric Ring)</text>
-            <text x="285" y="35" fill="var(--danger-color)" font-size="9">Read/Write Head</text>
+            <!-- Annotations -->
+            <text x="320" y="95" fill="var(--accent-color)" font-size="10" font-weight="700">Sector (512 Bytes)</text>
+            <text x="180" y="180" text-anchor="middle" fill="var(--text-muted)" font-size="9">Track (Circular Ring)</text>
+            <text x="420" y="25" text-anchor="middle" fill="var(--danger-color)" font-size="9" font-weight="600">Actuator Shaft</text>
+            <text x="330" y="145" fill="var(--text-main)" font-size="9">Read/Write Head</text>
+          </svg>
+        </div>
+
+        <!-- DIAGRAM 2: NTFS Layout -->
+        <h4 style="margin-top:1.5rem; font-size:0.9rem; font-weight:600; color:var(--text-main);">Visual B: NTFS File System Layout</h4>
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="150" viewBox="0 0 500 150" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
+            <!-- NTFS Block Divisions -->
+            <!-- Partition Boot Sector -->
+            <rect x="15" y="40" width="80" height="70" fill="none" stroke="var(--warning-color)" stroke-width="2"/>
+            <text x="55" y="70" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text-main)">Boot Sector</text>
+            <text x="55" y="85" text-anchor="middle" fill="var(--text-muted)" font-size="8">LDR, BIOS parameters</text>
+
+            <!-- Master File Table -->
+            <rect x="105" y="40" width="160" height="70" fill="none" stroke="var(--accent-color)" stroke-width="2.5"/>
+            <rect x="105" y="40" width="160" height="20" fill="var(--accent-bg-dark)"/>
+            <text x="185" y="53" text-anchor="middle" font-size="10" font-weight="700" fill="var(--text-main)">Master File Table (MFT)</text>
+            <text x="185" y="80" text-anchor="middle" fill="var(--text-muted)" font-size="8">Contains records of all files & directories</text>
+            <text x="185" y="95" text-anchor="middle" fill="var(--text-muted)" font-size="8">Critical metadata records ($Mft, $LogFile)</text>
+
+            <!-- System Files -->
+            <rect x="275" y="40" width="90" height="70" fill="none" stroke="var(--danger-color)" stroke-width="2"/>
+            <text x="320" y="70" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text-main)">System Files</text>
+            <text x="320" y="85" text-anchor="middle" fill="var(--text-muted)" font-size="8">NTFS Metadata</text>
+
+            <!-- File Area -->
+            <rect x="375" y="40" width="110" height="70" fill="none" stroke="#10b981" stroke-width="2"/>
+            <text x="430" y="70" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text-main)">Data Clusters</text>
+            <text x="430" y="85" text-anchor="middle" fill="var(--text-muted)" font-size="8">Actual user files</text>
           </svg>
         </div>
 
@@ -219,45 +338,111 @@ window.studyNotes = {
           </li>
         </ul>
 
+        <!-- DIAGRAM 1: Instruction cycle -->
+        <h4 style="margin-top:1.5rem; font-size:0.9rem; font-weight:600; color:var(--text-main);">Visual A: The Instruction Execution Cycle</h4>
         <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="180" viewBox="0 0 360 180" style="max-width: 360px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
-            <!-- CPU Block -->
-            <rect x="20" y="15" width="80" height="150" rx="4" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
-            <text x="60" y="70" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="12">CPU</text>
-            <rect x="30" y="90" width="60" height="25" rx="2" fill="none" stroke="var(--accent-color)" stroke-width="1"/>
-            <text x="60" y="105" text-anchor="middle" fill="var(--text-muted)" font-size="9">ALU</text>
-            <rect x="30" y="125" width="60" height="25" rx="2" fill="none" stroke="var(--accent-color)" stroke-width="1"/>
-            <text x="60" y="140" text-anchor="middle" fill="var(--text-muted)" font-size="9">CU</text>
+          <svg width="100%" height="280" viewBox="0 0 500 280" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
+            <!-- Cycle Steps -->
+            <!-- Fetch -->
+            <rect x="180" y="10" width="140" height="40" rx="6" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="250" y="34" text-anchor="middle" font-size="11" font-weight="700" fill="var(--text-main)">1. FETCH</text>
+            <text x="250" y="45" text-anchor="middle" fill="var(--text-muted)" font-size="8">Load instruction from RAM to IR</text>
 
-            <!-- Bus Lines -->
+            <!-- Decode -->
+            <rect x="320" y="90" width="140" height="40" rx="6" fill="none" stroke="var(--warning-color)" stroke-width="2"/>
+            <text x="390" y="114" text-anchor="middle" font-size="11" font-weight="700" fill="var(--text-main)">2. DECODE</text>
+            <text x="390" y="125" text-anchor="middle" fill="var(--text-muted)" font-size="8">CU decodes opcodes & operands</text>
+
+            <!-- Read Address -->
+            <rect x="250" y="180" width="140" height="40" rx="6" fill="none" stroke="#a78bfa" stroke-width="2"/>
+            <text x="320" y="204" text-anchor="middle" font-size="11" font-weight="700" fill="var(--text-main)">3. READ ADDRESS</text>
+            <text x="320" y="215" text-anchor="middle" fill="var(--text-muted)" font-size="8">Fetch effective memory data</text>
+
+            <!-- Execute -->
+            <rect x="50" y="180" width="140" height="40" rx="6" fill="none" stroke="#10b981" stroke-width="2"/>
+            <text x="120" y="204" text-anchor="middle" font-size="11" font-weight="700" fill="var(--text-main)">4. EXECUTE</text>
+            <text x="120" y="215" text-anchor="middle" fill="var(--text-muted)" font-size="8">ALU computes calculations</text>
+
+            <!-- Write Back -->
+            <rect x="20" y="90" width="140" height="40" rx="6" fill="none" stroke="var(--danger-color)" stroke-width="2"/>
+            <text x="90" y="114" text-anchor="middle" font-size="11" font-weight="700" fill="var(--text-main)">5. WRITE BACK</text>
+            <text x="90" y="125" text-anchor="middle" fill="var(--text-muted)" font-size="8">Store result in Register/RAM</text>
+
+            <!-- Arrows loop -->
+            <path d="M 320,30 H 390 V 90" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <polygon points="390,90 385,82 395,82" fill="var(--border-color)"/>
+
+            <path d="M 390,130 V 200 H 390" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <!-- Since it connects to Read Address -->
+            <path d="M 390,130 V 200 H 390" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <line x1="390" y1="130" x2="390" y2="200" stroke="var(--border-color)" stroke-width="1.5"/>
+            <line x1="390" y1="200" x2="390" y2="200" stroke="var(--border-color)" stroke-width="1.5"/>
+            <path d="M 390,130 V 180" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <!-- Let's redraw cleaner arrows -->
+            <!-- Fetch -> Decode -->
+            <!-- M 320,30 H 390 V 90 -->
+            <!-- Decode -> Read Address -->
+            <!-- M 390,130 V 160 H 320 V 180 -->
+            <!-- Let's use simple direct lines with arrow points -->
+            <path d="M 320,30 C 390,30 390,70 390,90" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <polygon points="390,90 386,82 394,82" fill="var(--border-color)"/>
+
+            <path d="M 390,130 C 390,160 320,160 320,180" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <polygon points="320,180 316,172 324,172" fill="var(--border-color)"/>
+
+            <path d="M 250,200 H 190" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <polygon points="190,200 198,195 198,205" fill="var(--border-color)"/>
+
+            <path d="M 120,180 C 120,150 90,150 90,130" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <polygon points="90,130 86,138 94,138" fill="var(--border-color)"/>
+
+            <path d="M 90,90 C 90,30 180,30 180,30" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <polygon points="180,30 172,25 172,35" fill="var(--border-color)"/>
+          </svg>
+        </div>
+
+        <!-- DIAGRAM 2: System Bus & Registers Connection -->
+        <h4 style="margin-top:1.5rem; font-size:0.9rem; font-weight:600; color:var(--text-main);">Visual B: CPU Bus Architecture Details</h4>
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="200" viewBox="0 0 500 200" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
+            <!-- CPU Boundary -->
+            <rect x="15" y="15" width="220" height="170" rx="4" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="30" y="32" fill="var(--accent-color)" font-size="9" font-weight="700">INTERNAL CPU</text>
+
+            <!-- Registers block -->
+            <rect x="30" y="50" width="80" height="120" rx="3" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <text x="70" y="68" text-anchor="middle" font-size="9" font-weight="600" fill="var(--text-main)">Registers</text>
+            <text x="70" y="90" text-anchor="middle" fill="var(--text-muted)" font-size="8">PC (Next Inst)</text>
+            <text x="70" y="110" text-anchor="middle" fill="var(--text-muted)" font-size="8">IR (Decoder)</text>
+            <text x="70" y="130" text-anchor="middle" fill="var(--text-muted)" font-size="8">MAR (Address)</text>
+            <text x="70" y="150" text-anchor="middle" fill="var(--text-muted)" font-size="8">MBR (Data)</text>
+
+            <!-- Internal Bus link to System Bus -->
+            <line x1="110" y1="130" x2="280" y2="130" stroke="var(--danger-color)" stroke-width="2"/>
+            <polygon points="280,130 272,126 272,134" fill="var(--danger-color)"/>
+
+            <line x1="110" y1="150" x2="310" y2="150" stroke="#10b981" stroke-width="2"/>
+            <polygon points="310,150 302,146 302,154" fill="#10b981"/>
+
+            <!-- System Bus Lines -->
             <!-- Address Bus -->
-            <path d="M 100,45 H 330" fill="none" stroke="var(--danger-color)" stroke-width="3"/>
-            <polygon points="335,45 325,40 325,50" fill="var(--danger-color)"/>
-            <text x="210" y="38" fill="var(--danger-color)" font-size="8" font-weight="600">ADDRESS BUS (Unidirectional)</text>
+            <rect x="280" y="30" width="25" height="140" fill="var(--danger-color)" opacity="0.8"/>
+            <text x="292" y="100" text-anchor="middle" fill="white" font-size="8" transform="rotate(-90 292 100)" font-weight="700">ADDRESS BUS</text>
 
             <!-- Data Bus -->
-            <path d="M 100,85 H 330" fill="none" stroke="#10b981" stroke-width="3"/>
-            <polygon points="98,85 108,80 108,90" fill="#10b981"/>
-            <polygon points="332,85 322,80 322,90" fill="#10b981"/>
-            <text x="210" y="78" fill="#10b981" font-size="8" font-weight="600">DATA BUS (Bidirectional)</text>
+            <rect x="315" y="30" width="25" height="140" fill="#10b981" opacity="0.8"/>
+            <text x="327" y="100" text-anchor="middle" fill="white" font-size="8" transform="rotate(-90 327 100)" font-weight="700">DATA BUS</text>
 
             <!-- Control Bus -->
-            <path d="M 100,125 H 330" fill="none" stroke="var(--warning-color)" stroke-width="3"/>
-            <polygon points="98,125 108,120 108,130" fill="var(--warning-color)"/>
-            <polygon points="332,125 322,120 322,130" fill="var(--warning-color)"/>
-            <text x="210" y="118" fill="var(--warning-color)" font-size="8" font-weight="600">CONTROL BUS (Bidirectional)</text>
+            <rect x="350" y="30" width="25" height="140" fill="var(--warning-color)" opacity="0.8"/>
+            <text x="362" y="100" text-anchor="middle" fill="white" font-size="8" transform="rotate(-90 362 100)" font-weight="700">CONTROL BUS</text>
 
-            <!-- RAM Box -->
-            <rect x="150" y="145" width="80" height="30" rx="3" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
-            <text x="190" y="164" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">RAM</text>
+            <!-- Memory connect ports -->
+            <rect x="410" y="65" width="70" height="70" rx="3" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <text x="445" y="100" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">RAM</text>
 
-            <!-- I/O Box -->
-            <rect x="250" y="145" width="80" height="30" rx="3" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
-            <text x="290" y="164" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">I/O Unit</text>
-
-            <!-- Vertical connects -->
-            <line x1="190" y1="45" x2="190" y2="145" stroke="var(--border-color)" stroke-width="1"/>
-            <line x1="290" y1="45" x2="290" y2="145" stroke="var(--border-color)" stroke-width="1"/>
+            <path d="M 375,85 H 410" stroke="var(--border-color)" stroke-width="1.5"/>
+            <path d="M 375,115 H 410" stroke="var(--border-color)" stroke-width="1.5"/>
           </svg>
         </div>
 
@@ -275,6 +460,66 @@ window.studyNotes = {
           <li><strong>Interrupt-Driven I/O:</strong> The CPU sends commands to the device and continues running other programs. When the device completes the task, it sends an electrical **Interrupt** signal to the CPU. The CPU temporarily stops its work, runs the Interrupt Service Routine (ISR) to handle the data, and returns to its previous task.</li>
           <li><strong>Direct Memory Access (DMA):</strong> Used for high-speed devices (like hard disks). The DMA controller takes over the system bus, transferring blocks of data directly between the device and RAM without routing it through the CPU core, interrupting the CPU only when the entire block transfer is complete.</li>
         </ul>
+
+        <!-- DIAGRAM 1: I/O Comparison Flow -->
+        <h4 style="margin-top:1.5rem; font-size:0.9rem; font-weight:600; color:var(--text-main);">Visual A: I/O Protocols Comparison</h4>
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="220" viewBox="0 0 500 220" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
+            <!-- Column 1: Programmed I/O -->
+            <rect x="15" y="30" width="140" height="150" rx="4" fill="none" stroke="var(--danger-color)" stroke-width="1.5"/>
+            <text x="85" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="var(--text-main)">Programmed I/O</text>
+            <text x="85" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">CPU continuously loops</text>
+            <text x="85" y="90" text-anchor="middle" fill="var(--text-muted)" font-size="8">(polling loop)</text>
+            <text x="85" y="115" text-anchor="middle" fill="var(--text-muted)" font-size="8">Wastes CPU cycles</text>
+            <text x="85" y="130" text-anchor="middle" fill="var(--text-muted)" font-size="8">waiting for device</text>
+            <!-- Polling circle arrow -->
+            <path d="M 65,150 A 15 15 0 1 1 105,150" fill="none" stroke="var(--danger-color)" stroke-width="1.5"/>
+            <polygon points="105,150 110,143 100,143" fill="var(--danger-color)"/>
+
+            <!-- Column 2: Interrupt driven -->
+            <rect x="180" y="30" width="140" height="150" rx="4" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
+            <text x="250" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="var(--text-main)">Interrupt I/O</text>
+            <text x="250" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">CPU works on other</text>
+            <text x="250" y="90" text-anchor="middle" fill="var(--text-muted)" font-size="8">programs in background</text>
+            <text x="250" y="115" text-anchor="middle" fill="var(--text-muted)" font-size="8">Device sends electric</text>
+            <text x="250" y="130" text-anchor="middle" fill="var(--text-muted)" font-size="8">hardware interrupt</text>
+            <!-- Lightning path -->
+            <path d="M 240,165 L 255,145 H 245 L 260,125" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
+
+            <!-- Column 3: DMA -->
+            <rect x="345" y="30" width="140" height="150" rx="4" fill="none" stroke="#10b981" stroke-width="1.5"/>
+            <text x="415" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="var(--text-main)">Direct Memory Access</text>
+            <text x="415" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">DMA Controller bypasses</text>
+            <text x="415" y="90" text-anchor="middle" fill="var(--text-muted)" font-size="8">CPU during transfers</text>
+            <text x="415" y="115" text-anchor="middle" fill="var(--text-muted)" font-size="8">Writes blocks directly</text>
+            <text x="415" y="130" text-anchor="middle" fill="var(--text-muted)" font-size="8">to RAM addresses</text>
+            <!-- Direct arrow -->
+            <line x1="390" y1="155" x2="440" y2="155" stroke="#10b981" stroke-width="2"/>
+            <polygon points="440,155 432,150 432,160" fill="#10b981"/>
+          </svg>
+        </div>
+
+        <!-- DIAGRAM 2: SATA vs PCIe Speed scale -->
+        <h4 style="margin-top:1.5rem; font-size:0.9rem; font-weight:600; color:var(--text-main);">Visual B: Interface Bus Speeds (SATA vs. PCIe NVMe)</h4>
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="160" viewBox="0 0 500 160" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
+            <!-- SATA III Bar -->
+            <text x="20" y="35" fill="var(--text-main)" font-size="10" font-weight="600">SATA III (6 Gbps / ~600 MB/s limit)</text>
+            <rect x="20" y="45" width="60" height="20" fill="var(--danger-color)" rx="3"/>
+            <text x="90" y="59" fill="var(--text-muted)" font-size="9">600 MB/s</text>
+
+            <!-- PCIe 3.0 x4 Bar -->
+            <text x="20" y="85" fill="var(--text-main)" font-size="10" font-weight="600">PCIe 3.0 x4 NVMe (Gen 3 SSDs)</text>
+            <rect x="20" y="95" width="300" height="20" fill="var(--warning-color)" rx="3"/>
+            <text x="330" y="109" fill="var(--text-muted)" font-size="9">3,500 MB/s (6x Faster)</text>
+
+            <!-- PCIe 4.0 x4 Bar -->
+            <text x="20" y="135" fill="var(--text-main)" font-size="10" font-weight="600">PCIe 4.0 x4 NVMe (Gen 4 SSDs)</text>
+            <rect x="20" y="145" width="450" height="20" fill="#10b981" rx="3"/>
+            <text x="440" y="138" fill="#10b981" font-size="8" font-weight="600">7,000 MB/s (12x Faster!)</text>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           When an RBB teller prints a statement on a passbook printer:
@@ -298,39 +543,39 @@ window.studyNotes = {
           <li><strong>Router (OSI Layer 3 - Network):</strong> Connects different IP subnets. It reads logical IP headers to determine the best path to route packets across networks.</li>
         </ul>
 
-        <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="240" viewBox="0 0 320 240" style="max-width: 320px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+        <div style="text-align: center; margin: 1.5rem 0;">
+          <svg width="100%" height="240" viewBox="0 0 500 240" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
             <!-- Layers -->
-            <rect x="20" y="10" width="160" height="25" fill="#f87171" rx="3"/>
-            <text x="100" y="26" text-anchor="middle" fill="white" font-size="9" font-weight="600">7. Application Layer</text>
+            <rect x="20" y="10" width="220" height="25" fill="#f87171" rx="3"/>
+            <text x="130" y="26" text-anchor="middle" fill="white" font-size="10" font-weight="600">7. Application Layer</text>
 
-            <rect x="20" y="40" width="160" height="25" fill="#fb923c" rx="3"/>
-            <text x="100" y="56" text-anchor="middle" fill="white" font-size="9" font-weight="600">6. Presentation / 5. Session</text>
+            <rect x="20" y="40" width="220" height="25" fill="#fb923c" rx="3"/>
+            <text x="130" y="56" text-anchor="middle" fill="white" font-size="10" font-weight="600">6. Presentation / 5. Session</text>
 
-            <rect x="20" y="70" width="160" height="25" fill="#fbbf24" rx="3"/>
-            <text x="100" y="86" text-anchor="middle" fill="white" font-size="9" font-weight="600">4. Transport Layer</text>
+            <rect x="20" y="70" width="220" height="25" fill="#fbbf24" rx="3"/>
+            <text x="130" y="86" text-anchor="middle" fill="white" font-size="10" font-weight="600">4. Transport Layer</text>
 
-            <rect x="20" y="100" width="160" height="25" fill="#34d399" rx="3"/>
-            <text x="100" y="116" text-anchor="middle" fill="white" font-size="9" font-weight="600">3. Network Layer</text>
+            <rect x="20" y="100" width="220" height="25" fill="#34d399" rx="3"/>
+            <text x="130" y="116" text-anchor="middle" fill="white" font-size="10" font-weight="600">3. Network Layer</text>
 
-            <rect x="20" y="130" width="160" height="25" fill="#60a5fa" rx="3"/>
-            <text x="100" y="146" text-anchor="middle" fill="white" font-size="9" font-weight="600">2. Data Link Layer</text>
+            <rect x="20" y="130" width="220" height="25" fill="#60a5fa" rx="3"/>
+            <text x="130" y="146" text-anchor="middle" fill="white" font-size="10" font-weight="600">2. Data Link Layer</text>
 
-            <rect x="20" y="160" width="160" height="25" fill="#a78bfa" rx="3"/>
-            <text x="100" y="176" text-anchor="middle" fill="white" font-size="9" font-weight="600">1. Physical Layer</text>
+            <rect x="20" y="160" width="220" height="25" fill="#a78bfa" rx="3"/>
+            <text x="130" y="176" text-anchor="middle" fill="white" font-size="10" font-weight="600">1. Physical Layer</text>
 
             <!-- Connections to devices -->
-            <path d="M 180,112.5 H 220" stroke="#34d399" stroke-width="1.5" stroke-dasharray="2,2"/>
-            <rect x="220" y="100" width="80" height="25" fill="none" stroke="#34d399" stroke-width="2" rx="4"/>
-            <text x="260" y="116" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">ROUTER</text>
+            <path d="M 240,112.5 H 320" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3,3"/>
+            <rect x="320" y="100" width="140" height="25" fill="none" stroke="#34d399" stroke-width="2.5" rx="4"/>
+            <text x="390" y="116" text-anchor="middle" fill="var(--text-main)" font-size="10" font-weight="700">ROUTER (IP)</text>
 
-            <path d="M 180,142.5 H 220" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="2,2"/>
-            <rect x="220" y="130" width="80" height="25" fill="none" stroke="#60a5fa" stroke-width="2" rx="4"/>
-            <text x="260" y="146" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">SWITCH</text>
+            <path d="M 240,142.5 H 320" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="3,3"/>
+            <rect x="320" y="130" width="140" height="25" fill="none" stroke="#60a5fa" stroke-width="2.5" rx="4"/>
+            <text x="390" y="146" text-anchor="middle" fill="var(--text-main)" font-size="10" font-weight="700">SWITCH (MAC)</text>
 
-            <path d="M 180,172.5 H 220" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="2,2"/>
-            <rect x="220" y="160" width="80" height="25" fill="none" stroke="#a78bfa" stroke-width="2" rx="4"/>
-            <text x="260" y="176" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">HUB / REPEATER</text>
+            <path d="M 240,172.5 H 320" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="3,3"/>
+            <rect x="320" y="160" width="140" height="25" fill="none" stroke="#a78bfa" stroke-width="2.5" rx="4"/>
+            <text x="390" y="176" text-anchor="middle" fill="var(--text-main)" font-size="10" font-weight="700">HUB / REPEATER</text>
           </svg>
         </div>
 
@@ -426,55 +671,55 @@ window.studyNotes = {
           <li><strong>Round Robin (RR):</strong> Preemptive scheduling designed for time-sharing. It assigns a fixed time quantum (e.g. 10ms) to each process. When the quantum expires, the process is preempted and sent to the back of the queue.</li>
         </ul>
 
-        <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="160" viewBox="0 0 400 160" style="max-width: 400px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+        <div style="text-align: center; margin: 1.5rem 0;">
+          <svg width="100%" height="180" viewBox="0 0 500 180" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
             <!-- New -->
-            <circle cx="40" cy="80" r="25" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>
-            <text x="40" y="83" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">NEW</text>
+            <circle cx="50" cy="90" r="30" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>
+            <text x="50" y="93" text-anchor="middle" fill="var(--text-main)" font-size="10" font-weight="600">NEW</text>
 
             <!-- Ready -->
-            <circle cx="140" cy="80" r="25" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
-            <text x="140" y="83" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">READY</text>
+            <circle cx="170" cy="90" r="30" fill="none" stroke="var(--accent-color)" stroke-width="2.5"/>
+            <text x="170" y="93" text-anchor="middle" fill="var(--text-main)" font-size="10" font-weight="600">READY</text>
 
             <!-- Running -->
-            <circle cx="260" cy="80" r="25" fill="none" stroke="#10b981" stroke-width="2"/>
-            <text x="260" y="83" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">RUNNING</text>
+            <circle cx="330" cy="90" r="30" fill="none" stroke="#10b981" stroke-width="2.5"/>
+            <text x="330" y="93" text-anchor="middle" fill="var(--text-main)" font-size="10" font-weight="600">RUNNING</text>
 
             <!-- Terminated -->
-            <circle cx="360" cy="80" r="25" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>
-            <text x="360" y="83" text-anchor="middle" fill="var(--text-main)" font-size="8" font-weight="600">EXIT</text>
+            <circle cx="450" cy="90" r="30" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>
+            <text x="450" y="93" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">EXIT</text>
 
             <!-- Blocked -->
-            <circle cx="200" cy="130" r="23" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
-            <text x="200" y="133" text-anchor="middle" fill="var(--text-main)" font-size="8" font-weight="600">WAITING</text>
+            <circle cx="250" cy="145" r="28" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
+            <text x="250" y="148" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">WAITING</text>
 
             <!-- Connections -->
             <!-- New -> Ready -->
-            <line x1="65" y1="80" x2="115" y2="80" stroke="var(--text-muted)" stroke-width="1"/>
-            <polygon points="115,80 107,76 107,84" fill="var(--text-muted)"/>
+            <line x1="80" y1="90" x2="140" y2="90" stroke="var(--text-muted)" stroke-width="1.5"/>
+            <polygon points="140,90 130,85 130,95" fill="var(--text-muted)"/>
             
             <!-- Ready -> Running -->
-            <line x1="165" y1="80" x2="235" y2="80" stroke="var(--accent-color)" stroke-width="1.5"/>
-            <polygon points="235,80 227,76 227,84" fill="var(--accent-color)"/>
+            <line x1="200" y1="90" x2="300" y2="90" stroke="var(--accent-color)" stroke-width="2"/>
+            <polygon points="300,90 290,85 290,95" fill="var(--accent-color)"/>
 
             <!-- Running -> Terminated -->
-            <line x1="285" y1="80" x2="335" y2="80" stroke="var(--text-muted)" stroke-width="1"/>
-            <polygon points="335,80 327,76 327,84" fill="var(--text-muted)"/>
+            <line x1="360" y1="90" x2="420" y2="90" stroke="var(--text-muted)" stroke-width="1.5"/>
+            <polygon points="420,90 410,85 410,95" fill="var(--text-muted)"/>
 
             <!-- Running -> Ready (Interrupt curve) -->
-            <path d="M 245,60 Q 200,30 155,60" fill="none" stroke="var(--danger-color)" stroke-width="1" stroke-dasharray="2,2"/>
-            <polygon points="153,62 162,60 158,54" fill="var(--danger-color)"/>
-            <text x="200" y="38" text-anchor="middle" fill="var(--danger-color)" font-size="7">Interrupt</text>
+            <path d="M 310,65 Q 250,30 190,65" fill="none" stroke="var(--danger-color)" stroke-width="1.5" stroke-dasharray="3,3"/>
+            <polygon points="190,65 200,62 195,57" fill="var(--danger-color)"/>
+            <text x="250" y="42" text-anchor="middle" fill="var(--danger-color)" font-size="8">Interrupt</text>
 
             <!-- Running -> Waiting -->
-            <path d="M 250,98 L 218,115" stroke="var(--warning-color)" stroke-width="1" fill="none"/>
-            <polygon points="218,115 227,113 222,107" fill="var(--warning-color)"/>
-            <text x="250" y="112" fill="var(--text-muted)" font-size="7">I/O Request</text>
+            <path d="M 315,115 L 275,133" stroke="var(--warning-color)" stroke-width="1.5" fill="none"/>
+            <polygon points="275,133 285,130 280,123" fill="var(--warning-color)"/>
+            <text x="315" y="133" fill="var(--text-muted)" font-size="8">I/O Wait</text>
 
             <!-- Waiting -> Ready -->
-            <path d="M 182,115 L 150,98" stroke="var(--warning-color)" stroke-width="1" fill="none"/>
-            <polygon points="150,98 155,107 160,102" fill="var(--warning-color)"/>
-            <text x="145" y="112" fill="var(--text-muted)" font-size="7">I/O Done</text>
+            <path d="M 225,133 L 185,115" stroke="var(--warning-color)" stroke-width="1.5" fill="none"/>
+            <polygon points="185,115 190,125 195,120" fill="var(--warning-color)"/>
+            <text x="175" y="133" fill="var(--text-muted)" font-size="8">I/O Done</text>
           </svg>
         </div>
 
@@ -560,8 +805,8 @@ window.studyNotes = {
           <li><strong>Non-Clustered Index:</strong> Creates a separate search index pointing to the physical data rows. Multiple non-clustered indexes are allowed per table.</li>
         </ul>
 
-        <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="150" viewBox="0 0 360 150" style="max-width: 360px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+        <div style="text-align: center; margin: 1.5rem 0;">
+          <svg width="100%" height="150" viewBox="0 0 360 150" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
             <!-- Customer Table -->
             <rect x="20" y="20" width="110" height="100" rx="3" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
             <rect x="20" y="20" width="110" height="22" fill="var(--accent-bg-dark)"/>
@@ -602,8 +847,8 @@ window.studyNotes = {
           <li><strong>Snowflake Schema:</strong> An extension of the Star schema where dimension tables are normalized (split into sub-tables), reducing disk space but increasing query join complexity.</li>
         </ul>
 
-        <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="220" viewBox="0 0 360 220" style="max-width: 360px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+        <div style="text-align: center; margin: 1.5rem 0;">
+          <svg width="100%" height="220" viewBox="0 0 360 220" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
             <!-- Star Schema Diagram -->
             <!-- Center Fact Table -->
             <rect x="130" y="80" width="100" height="60" rx="3" fill="none" stroke="var(--danger-color)" stroke-width="2"/>
@@ -694,8 +939,8 @@ window.studyNotes = {
           </li>
         </ul>
 
-        <div style="text-align: center; margin: 1rem 0;">
-          <svg width="100%" height="150" viewBox="0 0 360 150" style="max-width: 360px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+        <div style="text-align: center; margin: 1.5rem 0;">
+          <svg width="100%" height="150" viewBox="0 0 360 150" style="max-width: 550px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px;">
             <!-- Flow -->
             <!-- Step 1: Login -->
             <rect x="15" y="45" width="80" height="40" rx="3" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
