@@ -1,4 +1,4 @@
-// RBB Level 5 IT Assistant Study Notes Database
+// RBB Level 5 IT Assistant Study Notes Database with Inline SVG Diagrams
 window.studyNotes = {
   1: {
     title: "Chapter 1: Introduction of Computer",
@@ -14,6 +14,35 @@ window.studyNotes = {
           <li><strong>Mainframe Computers:</strong> Multi-user computers optimized for high security, massive storage capacity, and extreme transaction input/output (I/O) processing speeds. Speed is measured in MIPS (Million Instructions Per Second).</li>
           <li><strong>Supercomputers:</strong> The fastest computers in the world, optimized for execution of complex scientific, floating-point calculations rather than database transactions. Speed is measured in FLOPS (Floating Point Operations Per Second).</li>
         </ul>
+        
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="150" viewBox="0 0 450 150" style="max-width: 450px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- Analog -->
+            <rect x="20" y="20" width="110" height="70" rx="6" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="75" y="45" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="11">Analog</text>
+            <text x="75" y="60" text-anchor="middle" fill="var(--text-muted)" font-size="9">Continuous Data</text>
+            <text x="75" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">e.g., Voltage, Flow</text>
+            <!-- Wave effect -->
+            <path d="M 30,120 Q 55,100 80,120 T 130,120" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
+
+            <!-- Hybrid (Middle Connection) -->
+            <rect x="170" y="20" width="110" height="70" rx="6" fill="none" stroke="#10b981" stroke-width="2"/>
+            <text x="225" y="45" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="11">Hybrid</text>
+            <text x="225" y="60" text-anchor="middle" fill="var(--text-muted)" font-size="9">Analog + Digital</text>
+            <text x="225" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">e.g., Petrol Pump</text>
+            <!-- Mix effect -->
+            <path d="M 180,120 Q 205,100 230,120 H 260 v -15" fill="none" stroke="#10b981" stroke-width="1.5"/>
+
+            <!-- Digital -->
+            <rect x="320" y="20" width="110" height="70" rx="6" fill="none" stroke="var(--warning-color)" stroke-width="2"/>
+            <text x="375" y="45" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="11">Digital</text>
+            <text x="375" y="60" text-anchor="middle" fill="var(--text-muted)" font-size="9">Discrete Bits (0/1)</text>
+            <text x="375" y="75" text-anchor="middle" fill="var(--text-muted)" font-size="8">e.g., PC, Server</text>
+            <!-- Square wave -->
+            <path d="M 330,120 H 350 V 105 H 370 V 120 H 390 V 105 H 410" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           <ul>
@@ -43,6 +72,27 @@ window.studyNotes = {
             </ul>
           </li>
         </ul>
+
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="160" viewBox="0 0 340 160" style="max-width: 340px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- Outer Margin Box -->
+            <rect x="15" y="10" width="310" height="140" fill="none" stroke="var(--danger-color)" stroke-dasharray="4,4" stroke-width="1.5"/>
+            <text x="25" y="23" fill="var(--danger-color)" font-size="8" font-weight="600">MARGIN</text>
+
+            <!-- Border Box -->
+            <rect x="45" y="25" width="250" height="110" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="55" y="38" fill="var(--accent-color)" font-size="8" font-weight="600">BORDER</text>
+
+            <!-- Padding Box -->
+            <rect x="75" y="40" width="190" height="80" fill="none" stroke="#10b981" stroke-dasharray="2,2" stroke-width="1.5"/>
+            <text x="85" y="53" fill="#10b981" font-size="8" font-weight="600">PADDING</text>
+
+            <!-- Content Box -->
+            <rect x="105" y="55" width="130" height="50" fill="var(--btn-unvisited-light)" stroke="var(--border-color)" style="body.dark & { fill: var(--btn-unvisited-dark); }"/>
+            <text x="170" y="83" text-anchor="middle" fill="var(--text-main)" font-size="10" font-weight="600">CONTENT</text>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           When RBB sets up email accounts for branch managers, they configure <strong>IMAP</strong> so the managers can securely read the same emails on their branch desktops and official smartphones without emails getting deleted. The RBB online banking website uses <strong>CSS Margins</strong> to keep security alert boxes separated from login fields to ensure a clean user interface.
@@ -119,6 +169,35 @@ window.studyNotes = {
           <li><strong>Cylinder:</strong> The set of all tracks of the same diameter across all platter surfaces. Cylinders allow reading multiple tracks without moving the physical read/write head arm, reducing seek time.</li>
           <li><strong>NTFS (New Technology File System):</strong> Standard file system for Windows OS, supporting file permissions (ACLs), encryption (EFS), disk quotas, compression, and file journaling (preventing corruptions).</li>
         </ul>
+
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="220" viewBox="0 0 320 220" style="max-width: 320px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- Platter Circles -->
+            <circle cx="160" cy="110" r="90" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>
+            <circle cx="160" cy="110" r="70" fill="none" stroke="var(--text-muted)" stroke-width="1" stroke-dasharray="3,3"/>
+            <circle cx="160" cy="110" r="50" fill="none" stroke="var(--text-muted)" stroke-width="1"/>
+            <circle cx="160" cy="110" r="15" fill="none" stroke="var(--text-main)" stroke-width="2"/>
+
+            <!-- Sector Wedge (pie lines) -->
+            <line x1="160" y1="110" x2="223" y2="47" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <line x1="160" y1="110" x2="250" y2="110" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <!-- Arc for sector -->
+            <path d="M 223,47 A 90 90 0 0 1 250,110" fill="var(--accent-bg-dark)" stroke="var(--accent-color)" stroke-width="1.5" style="body.light & { fill: var(--accent-bg-light); }"/>
+
+            <!-- Actuator Arm & Head -->
+            <line x1="280" y1="20" x2="210" y2="90" stroke="var(--danger-color)" stroke-width="3"/>
+            <circle cx="280" cy="20" r="6" fill="var(--danger-color)"/>
+            <!-- Head Point -->
+            <rect x="205" y="85" width="8" height="8" fill="var(--text-main)"/>
+
+            <!-- Labels -->
+            <text x="160" y="15" text-anchor="middle" font-size="10" font-weight="600" fill="var(--text-main)">Hard Disk organization</text>
+            <text x="210" y="70" fill="var(--accent-color)" font-size="9" font-weight="600">Sector (Wedge)</text>
+            <text x="160" y="150" text-anchor="middle" fill="var(--text-muted)" font-size="9">Track (Concentric Ring)</text>
+            <text x="285" y="35" fill="var(--danger-color)" font-size="9">Read/Write Head</text>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           When formatting RBB branch desktop hard drives, IT assistants partition them using <strong>NTFS</strong> rather than older FAT32. This ensures that folders containing salary records can have strict Windows user permission settings, and files larger than 4GB (such as database backup files) can be saved successfully.
@@ -139,6 +218,49 @@ window.studyNotes = {
             </ul>
           </li>
         </ul>
+
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="180" viewBox="0 0 360 180" style="max-width: 360px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- CPU Block -->
+            <rect x="20" y="15" width="80" height="150" rx="4" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="60" y="70" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="12">CPU</text>
+            <rect x="30" y="90" width="60" height="25" rx="2" fill="none" stroke="var(--accent-color)" stroke-width="1"/>
+            <text x="60" y="105" text-anchor="middle" fill="var(--text-muted)" font-size="9">ALU</text>
+            <rect x="30" y="125" width="60" height="25" rx="2" fill="none" stroke="var(--accent-color)" stroke-width="1"/>
+            <text x="60" y="140" text-anchor="middle" fill="var(--text-muted)" font-size="9">CU</text>
+
+            <!-- Bus Lines -->
+            <!-- Address Bus -->
+            <path d="M 100,45 H 330" fill="none" stroke="var(--danger-color)" stroke-width="3"/>
+            <polygon points="335,45 325,40 325,50" fill="var(--danger-color)"/>
+            <text x="210" y="38" fill="var(--danger-color)" font-size="8" font-weight="600">ADDRESS BUS (Unidirectional)</text>
+
+            <!-- Data Bus -->
+            <path d="M 100,85 H 330" fill="none" stroke="#10b981" stroke-width="3"/>
+            <polygon points="98,85 108,80 108,90" fill="#10b981"/>
+            <polygon points="332,85 322,80 322,90" fill="#10b981"/>
+            <text x="210" y="78" fill="#10b981" font-size="8" font-weight="600">DATA BUS (Bidirectional)</text>
+
+            <!-- Control Bus -->
+            <path d="M 100,125 H 330" fill="none" stroke="var(--warning-color)" stroke-width="3"/>
+            <polygon points="98,125 108,120 108,130" fill="var(--warning-color)"/>
+            <polygon points="332,125 322,120 322,130" fill="var(--warning-color)"/>
+            <text x="210" y="118" fill="var(--warning-color)" font-size="8" font-weight="600">CONTROL BUS (Bidirectional)</text>
+
+            <!-- RAM Box -->
+            <rect x="150" y="145" width="80" height="30" rx="3" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <text x="190" y="164" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">RAM</text>
+
+            <!-- I/O Box -->
+            <rect x="250" y="145" width="80" height="30" rx="3" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <text x="290" y="164" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">I/O Unit</text>
+
+            <!-- Vertical connects -->
+            <line x1="190" y1="45" x2="190" y2="145" stroke="var(--border-color)" stroke-width="1"/>
+            <line x1="290" y1="45" x2="290" y2="145" stroke="var(--border-color)" stroke-width="1"/>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           When RBB's core database checks if a customer has sufficient balance for an ATM withdrawal, the **ALU** performs the logical comparison ($Balance \\ge Withdrawal$). The **Control Unit** routes this check request from memory, and the **Address Bus** specifies the exact RAM coordinates where the customer's account balance variable is stored.
@@ -175,6 +297,43 @@ window.studyNotes = {
           <li><strong>Switch (OSI Layer 2 - Data Link):</strong> Learns the physical MAC addresses of connected devices and populates a CAM table. It forwards incoming frames strictly to the port where the destination MAC resides, eliminating network collisions.</li>
           <li><strong>Router (OSI Layer 3 - Network):</strong> Connects different IP subnets. It reads logical IP headers to determine the best path to route packets across networks.</li>
         </ul>
+
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="240" viewBox="0 0 320 240" style="max-width: 320px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- Layers -->
+            <rect x="20" y="10" width="160" height="25" fill="#f87171" rx="3"/>
+            <text x="100" y="26" text-anchor="middle" fill="white" font-size="9" font-weight="600">7. Application Layer</text>
+
+            <rect x="20" y="40" width="160" height="25" fill="#fb923c" rx="3"/>
+            <text x="100" y="56" text-anchor="middle" fill="white" font-size="9" font-weight="600">6. Presentation / 5. Session</text>
+
+            <rect x="20" y="70" width="160" height="25" fill="#fbbf24" rx="3"/>
+            <text x="100" y="86" text-anchor="middle" fill="white" font-size="9" font-weight="600">4. Transport Layer</text>
+
+            <rect x="20" y="100" width="160" height="25" fill="#34d399" rx="3"/>
+            <text x="100" y="116" text-anchor="middle" fill="white" font-size="9" font-weight="600">3. Network Layer</text>
+
+            <rect x="20" y="130" width="160" height="25" fill="#60a5fa" rx="3"/>
+            <text x="100" y="146" text-anchor="middle" fill="white" font-size="9" font-weight="600">2. Data Link Layer</text>
+
+            <rect x="20" y="160" width="160" height="25" fill="#a78bfa" rx="3"/>
+            <text x="100" y="176" text-anchor="middle" fill="white" font-size="9" font-weight="600">1. Physical Layer</text>
+
+            <!-- Connections to devices -->
+            <path d="M 180,112.5 H 220" stroke="#34d399" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <rect x="220" y="100" width="80" height="25" fill="none" stroke="#34d399" stroke-width="2" rx="4"/>
+            <text x="260" y="116" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">ROUTER</text>
+
+            <path d="M 180,142.5 H 220" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <rect x="220" y="130" width="80" height="25" fill="none" stroke="#60a5fa" stroke-width="2" rx="4"/>
+            <text x="260" y="146" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">SWITCH</text>
+
+            <path d="M 180,172.5 H 220" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <rect x="220" y="160" width="80" height="25" fill="none" stroke="#a78bfa" stroke-width="2" rx="4"/>
+            <text x="260" y="176" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">HUB / REPEATER</text>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           In an RBB branch in Pokhara:
@@ -266,6 +425,59 @@ window.studyNotes = {
           <li><strong>Shortest Job First (SJF):</strong> Non-preemptive scheduling that prioritizes the shortest CPU burst. Can cause **Starvation** where long tasks wait indefinitely if short tasks keep arriving.</li>
           <li><strong>Round Robin (RR):</strong> Preemptive scheduling designed for time-sharing. It assigns a fixed time quantum (e.g. 10ms) to each process. When the quantum expires, the process is preempted and sent to the back of the queue.</li>
         </ul>
+
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="160" viewBox="0 0 400 160" style="max-width: 400px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- New -->
+            <circle cx="40" cy="80" r="25" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>
+            <text x="40" y="83" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">NEW</text>
+
+            <!-- Ready -->
+            <circle cx="140" cy="80" r="25" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="140" y="83" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">READY</text>
+
+            <!-- Running -->
+            <circle cx="260" cy="80" r="25" fill="none" stroke="#10b981" stroke-width="2"/>
+            <text x="260" y="83" text-anchor="middle" fill="var(--text-main)" font-size="9" font-weight="600">RUNNING</text>
+
+            <!-- Terminated -->
+            <circle cx="360" cy="80" r="25" fill="none" stroke="var(--text-muted)" stroke-width="1.5"/>
+            <text x="360" y="83" text-anchor="middle" fill="var(--text-main)" font-size="8" font-weight="600">EXIT</text>
+
+            <!-- Blocked -->
+            <circle cx="200" cy="130" r="23" fill="none" stroke="var(--warning-color)" stroke-width="1.5"/>
+            <text x="200" y="133" text-anchor="middle" fill="var(--text-main)" font-size="8" font-weight="600">WAITING</text>
+
+            <!-- Connections -->
+            <!-- New -> Ready -->
+            <line x1="65" y1="80" x2="115" y2="80" stroke="var(--text-muted)" stroke-width="1"/>
+            <polygon points="115,80 107,76 107,84" fill="var(--text-muted)"/>
+            
+            <!-- Ready -> Running -->
+            <line x1="165" y1="80" x2="235" y2="80" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <polygon points="235,80 227,76 227,84" fill="var(--accent-color)"/>
+
+            <!-- Running -> Terminated -->
+            <line x1="285" y1="80" x2="335" y2="80" stroke="var(--text-muted)" stroke-width="1"/>
+            <polygon points="335,80 327,76 327,84" fill="var(--text-muted)"/>
+
+            <!-- Running -> Ready (Interrupt curve) -->
+            <path d="M 245,60 Q 200,30 155,60" fill="none" stroke="var(--danger-color)" stroke-width="1" stroke-dasharray="2,2"/>
+            <polygon points="153,62 162,60 158,54" fill="var(--danger-color)"/>
+            <text x="200" y="38" text-anchor="middle" fill="var(--danger-color)" font-size="7">Interrupt</text>
+
+            <!-- Running -> Waiting -->
+            <path d="M 250,98 L 218,115" stroke="var(--warning-color)" stroke-width="1" fill="none"/>
+            <polygon points="218,115 227,113 222,107" fill="var(--warning-color)"/>
+            <text x="250" y="112" fill="var(--text-muted)" font-size="7">I/O Request</text>
+
+            <!-- Waiting -> Ready -->
+            <path d="M 182,115 L 150,98" stroke="var(--warning-color)" stroke-width="1" fill="none"/>
+            <polygon points="150,98 155,107 160,102" fill="var(--warning-color)"/>
+            <text x="145" y="112" fill="var(--text-muted)" font-size="7">I/O Done</text>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           If RBB's database server runs a massive monthly interest calculation script (large task) using **FCFS**, it could block teller transaction queries (short tasks), causing long queues at cash counters. To prevent this, database query processes are scheduled using **Round Robin** or priority queues to ensure short queries get CPU time quickly.
@@ -347,6 +559,32 @@ window.studyNotes = {
           <li><strong>Clustered Index:</strong> Physically re-orders the actual data rows of the table on the disk to match the index key order. Since data can only be physically sorted in one way, a table can have only **one** clustered index.</li>
           <li><strong>Non-Clustered Index:</strong> Creates a separate search index pointing to the physical data rows. Multiple non-clustered indexes are allowed per table.</li>
         </ul>
+
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="150" viewBox="0 0 360 150" style="max-width: 360px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- Customer Table -->
+            <rect x="20" y="20" width="110" height="100" rx="3" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <rect x="20" y="20" width="110" height="22" fill="var(--accent-bg-dark)"/>
+            <text x="75" y="35" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="9">tbl_Customer</text>
+            <text x="25" y="60" fill="var(--warning-color)" font-size="8" font-weight="600">CustomerID [PK]</text>
+            <text x="25" y="80" fill="var(--text-muted)" font-size="8">Name</text>
+            <text x="25" y="100" fill="var(--text-muted)" font-size="8">Phone</text>
+
+            <!-- Transactions Table -->
+            <rect x="230" y="20" width="110" height="100" rx="3" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <rect x="230" y="20" width="110" height="22" fill="var(--accent-bg-dark)"/>
+            <text x="285" y="35" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="9">tbl_Transactions</text>
+            <text x="235" y="60" fill="var(--text-muted)" font-size="8">TxID [PK]</text>
+            <text x="235" y="80" fill="var(--accent-color)" font-size="8" font-weight="600">CustomerID [FK]</text>
+            <text x="235" y="100" fill="var(--text-muted)" font-size="8">Amount</text>
+
+            <!-- Connection line PK -> FK -->
+            <path d="M 130,55 C 180,55 180,75 230,75" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="3,3"/>
+            <polygon points="230,75 222,70 222,80" fill="#10b981"/>
+            <text x="180" y="50" text-anchor="middle" fill="#10b981" font-size="7">Referential Integrity</text>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           In RBB's database, the <code>Customer</code> table has a Primary Key of <code>CustomerID</code>. The <code>Transactions</code> table has a Foreign Key <code>CustomerID</code> referencing it. A **Clustered Index** is set on <code>CustomerID</code> in the <code>Customer</code> table, physically grouping customer records on the database disk to make profile searches very fast.
@@ -363,6 +601,41 @@ window.studyNotes = {
           <li><strong>Star Schema:</strong> Simple design where a central fact table (containing business metrics) connects directly to multiple flat dimension tables.</li>
           <li><strong>Snowflake Schema:</strong> An extension of the Star schema where dimension tables are normalized (split into sub-tables), reducing disk space but increasing query join complexity.</li>
         </ul>
+
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="220" viewBox="0 0 360 220" style="max-width: 360px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- Star Schema Diagram -->
+            <!-- Center Fact Table -->
+            <rect x="130" y="80" width="100" height="60" rx="3" fill="none" stroke="var(--danger-color)" stroke-width="2"/>
+            <rect x="130" y="80" width="100" height="18" fill="var(--danger-bg-dark)"/>
+            <text x="180" y="92" text-anchor="middle" font-weight="600" fill="var(--text-main)" font-size="8">FACT TABLE</text>
+            <text x="180" y="112" text-anchor="middle" fill="var(--text-muted)" font-size="7">Foreign Keys</text>
+            <text x="180" y="127" text-anchor="middle" fill="var(--text-muted)" font-size="7">Measures (Amount)</text>
+
+            <!-- Dim 1 (Top Left) -->
+            <rect x="20" y="20" width="80" height="40" rx="2" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <text x="60" y="44" text-anchor="middle" fill="var(--text-main)" font-size="8">Dim_Store</text>
+
+            <!-- Dim 2 (Top Right) -->
+            <rect x="260" y="20" width="80" height="40" rx="2" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <text x="300" y="44" text-anchor="middle" fill="var(--text-main)" font-size="8">Dim_Product</text>
+
+            <!-- Dim 3 (Bottom Left) -->
+            <rect x="20" y="160" width="80" height="40" rx="2" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <text x="60" y="184" text-anchor="middle" fill="var(--text-main)" font-size="8">Dim_Time</text>
+
+            <!-- Dim 4 (Bottom Right) -->
+            <rect x="260" y="160" width="80" height="40" rx="2" fill="none" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <text x="300" y="184" text-anchor="middle" fill="var(--text-main)" font-size="8">Dim_Customer</text>
+
+            <!-- Connect Lines radiating in a Star -->
+            <line x1="100" y1="50" x2="140" y2="80" stroke="var(--border-color)" stroke-width="1.5"/>
+            <line x1="260" y1="50" x2="220" y2="80" stroke="var(--border-color)" stroke-width="1.5"/>
+            <line x1="100" y1="170" x2="140" y2="140" stroke="var(--border-color)" stroke-width="1.5"/>
+            <line x1="260" y1="170" x2="220" y2="140" stroke="var(--border-color)" stroke-width="1.5"/>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           RBB runs an **OLTP** database to log every daily ATM withdrawal. At midnight, an **ETL** process copies this transaction data, transforms it, and loads it into an **OLAP Data Warehouse**. Business analysts then run complex queries on this data warehouse to identify which branches in Nepal have the highest cash usage trends.
@@ -420,6 +693,36 @@ window.studyNotes = {
             </ul>
           </li>
         </ul>
+
+        <div style="text-align: center; margin: 1rem 0;">
+          <svg width="100%" height="150" viewBox="0 0 360 150" style="max-width: 360px; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px;">
+            <!-- Flow -->
+            <!-- Step 1: Login -->
+            <rect x="15" y="45" width="80" height="40" rx="3" fill="none" stroke="var(--border-color)" stroke-width="1.5"/>
+            <text x="55" y="68" text-anchor="middle" fill="var(--text-main)" font-size="8">1. Login + MFA</text>
+
+            <!-- Arrow -->
+            <line x1="95" y1="65" x2="135" y2="65" stroke="var(--accent-color)" stroke-width="1.5"/>
+            <polygon points="135,65 127,60 127,70" fill="var(--accent-color)"/>
+
+            <!-- Step 2: Auth -->
+            <rect x="135" y="30" width="90" height="70" rx="3" fill="none" stroke="var(--accent-color)" stroke-width="2"/>
+            <text x="180" y="55" text-anchor="middle" fill="var(--text-main)" font-size="8" font-weight="600">AUTHENTICATION</text>
+            <text x="180" y="70" text-anchor="middle" fill="var(--text-muted)" font-size="7">Identifies who</text>
+            <text x="180" y="85" text-anchor="middle" fill="var(--text-muted)" font-size="7">you are</text>
+
+            <!-- Arrow -->
+            <line x1="225" y1="65" x2="265" y2="65" stroke="#10b981" stroke-width="1.5"/>
+            <polygon points="265,65 257,60 257,70" fill="#10b981"/>
+
+            <!-- Step 3: Authz -->
+            <rect x="265" y="30" width="80" height="70" rx="3" fill="none" stroke="#10b981" stroke-width="2"/>
+            <text x="305" y="55" text-anchor="middle" fill="var(--text-main)" font-size="8" font-weight="600">AUTHORIZATION</text>
+            <text x="305" y="70" text-anchor="middle" fill="var(--text-muted)" font-size="7">Verifies what</text>
+            <text x="305" y="85" text-anchor="middle" fill="var(--text-muted)" font-size="7">you can access</text>
+          </svg>
+        </div>
+
         <div class="nepal-example-box">
           <strong>🇳🇵 Real-Life Nepal Applications:</strong>
           When an RBB administrator logs into the core banking system, they authenticate using their password (**something they know**) and a physical USB token (**something they have**). Once logged in, the system **authorizes** them to edit customer database tables, but blocks them from modifying transaction logs.
